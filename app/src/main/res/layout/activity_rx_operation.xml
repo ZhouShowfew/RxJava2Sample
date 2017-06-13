@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.showfew.rx.RxOperationActivity">
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="map"/>
+    <Button
+        android:id="@+id/btn_flat_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="flatMap"/>
+    <Button
+        android:id="@+id/btn_from_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="filter"/>
+    <Button
+        android:id="@+id/btn_take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="take"/>
+    <Button
+        android:id="@+id/btn_doonnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="doOnNext"/>
+
+</LinearLayout>

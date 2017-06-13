@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.showfew.rx.MainActivity">
+
+    <Button
+        android:id="@+id/btn_base_sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BaseSample"/>
+    <Button
+        android:id="@+id/btn_rx_operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxOperation"/>
+    <Button
+        android:id="@+id/btn_rx_scheduler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxScheduler"/>
+    <Button
+        android:id="@+id/btn_net_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NetRequest"/>
+    <Button
+        android:id="@+id/btn_disposable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disposable"/>
+</LinearLayout>
